@@ -24,8 +24,11 @@
     return UIStatusBarStyleLightContent;
 }
 - (IBAction)zoomAction {
-    
-    
+    if (self.coverButton.alpha == 0.0) {
+        self.coverButton.alpha = 0.5f;
+    }else{
+        self.coverButton.alpha = 0.0f;
+    }
 }
 
 #pragma mark - Getter
