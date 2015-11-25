@@ -10,7 +10,7 @@
 
 @interface ViewController : UIViewController
 
-@property (strong, nonatomic) IBOutlet UIButton *imageButton;
+
 
 @end
 
